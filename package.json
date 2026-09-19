@@ -1,0 +1,29 @@
+{
+  "name": "walletwatch",
+  "description": "BTC/LTC/ETH/XRP cüzdan izleme ve işlem servisi",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "abi-decoder": "^1.2.0",
+    "axios": "^0.18.0",
+    "bitcoin-core": "^2.0.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "ripple-lib": "^1.1.2",
+    "safe-buffer": "^5.1.2",
+    "shelljs": "^0.8.3",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0",
+    "web3": "1.0.0-beta.46",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

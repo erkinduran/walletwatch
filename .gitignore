@@ -1,0 +1,17 @@
+/node_modules
+
+# Ortam değişkenleri / gizli bilgiler
+.env
+.env.*
+!.env.example
+
+# IDE ayarları (sunucu bilgileri ve arama geçmişi içerir)
+.idea/
+.vscode/
+
+# Loglar
+logs/*
+!logs/.gitkeep
+*.log
+
+.DS_Store
